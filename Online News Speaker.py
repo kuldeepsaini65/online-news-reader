@@ -7,7 +7,7 @@ def speak(str):
 if __name__ == '__main__':
     import requests
     import json
-    url = ('http://newsapi.org/v2/top-headlines?country=in&apiKey=4cbe0f781dd944c5911a5296fa82795a')
+    url = ('https://')  #Enter Your free News API Here For More Readme File
 
     a = 1
     response = requests.get(url)
